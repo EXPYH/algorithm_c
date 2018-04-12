@@ -3,8 +3,6 @@
 
 int numbers[MAX_NUM];
 
-int num;
-
 void quickSort(int first, int last){
     int pivot;
     int i;
