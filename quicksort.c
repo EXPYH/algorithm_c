@@ -5,9 +5,7 @@ int numbers[MAX_NUM];
 
 void quickSort(int first, int last){
     int pivot;
-    int i;
-    int j;
-    int temp;
+    int i, j, temp;
 
     if (first < last){
         pivot = first;
