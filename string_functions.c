@@ -7,8 +7,7 @@ int strlen(char* s) {
 
 void strcpy(char *s, char* t) {
 	//when *t is '\0', this while statement becomes false
-	while (*s++ = *t++)
-		;
+	while (*s++ = *t++);
 }
 
 int strcmp(char *s, char* t) {
